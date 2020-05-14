@@ -1,0 +1,11 @@
+{
+    "include": ["./src/**/*.ts"],
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es6",
+        "allowJs": true,
+        "strict": true,
+        "lib": ["es6", "dom"]
+    }
+}
